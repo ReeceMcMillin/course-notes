@@ -12,7 +12,7 @@ date: 2022-10-25
 * *Static* allocation is pretty simple, just allocate some amount of space at startup which is known at compile time.
 * *Dynamic* allocation is a little more tough
 	* **Dope Vector**
-		* ![[CS441 - Programming Languages/8 - Composite Types/Drawing 2022-10-21 11.35.46.excalidraw.png]]
+		* ![[images/Drawing 2022-10-21 11.35.46.excalidraw.png]]
 		* [Dope Vector - Wikipedia](https://en.wikipedia.org/wiki/Dope_vector)
 
 ## Heap Allocation

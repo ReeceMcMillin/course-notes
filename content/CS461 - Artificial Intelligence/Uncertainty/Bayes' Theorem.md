@@ -21,7 +21,8 @@ Suppose we have a simple 2 * 2 * 2 distribution:
 * Toothache
 * Dental pick catches on cavity
 We'll perform *marginalization*, or *summing out*, to calculate the marginal probability.
-![[CS461 - Artificial Intelligence/Uncertainty/Pasted image 20221024134153.png]]
+
+![[images/Pasted image 20221024134153.png]]
 
 $$P(\text{cavity} \mid \text{toothache}) = P(\text{cavity, ache, catch}) \cdot \alpha$$
 
