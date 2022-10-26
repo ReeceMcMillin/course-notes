@@ -42,4 +42,3 @@ You can think of the *pivot* as the only sorted element.
 # Notes
 1. Quicksort is **in-place**
 2. Quicksort is **not** [[CS404 - Algorithms/Ideas/Stable (Sorting)]]
-3. 
