@@ -1,4 +1,4 @@
-baseURL = "https://quartz.jzhao.xyz/"
+baseURL = "https://reecemcmillin.github.io/quartz/"
 languageCode = "en-us"
 googleAnalytics = "G-XYFD95KB4J"
 relativeURLs = false
@@ -15,7 +15,7 @@ enableGitInfo = true
     [markup.tableOfContents]
         endLevel = 3
         ordered = true
-        startLevel = 2
+        startLevel = 1
     [markup.highlight]
         noClasses = false
         anchorLineNos = false
