@@ -1,4 +1,5 @@
 baseURL = "https://reecemcmillin.github.io/quartz/"
+staticDir = ["static"]
 languageCode = "en-us"
 relativeURLs = false
 disablePathToLower = true

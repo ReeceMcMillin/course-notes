@@ -32,8 +32,15 @@ body {
 }
 
 hr {
-  margin: 2rem auto;
-  background-color: var(--outlinegray) !important;
+  margin: 3rem auto;
+  width: 10%;
+  background-color: var(--outlinegray);
+}
+
+hr.pagebreak {
+  width: 25%;
+  margin: 4rem auto;
+  background-color: var(--dark);
 }
 
 strong, em {
@@ -53,4 +60,16 @@ img {
 details {
   color: var(--dark);
   font-family: var(--font-body);
+}
+
+details > summary {
+  cursor: pointer;
+}
+
+li.wikipedia {
+  float: right;
+}
+
+li.wikipedia > a::before {
+  content: "\1F517";
 }
