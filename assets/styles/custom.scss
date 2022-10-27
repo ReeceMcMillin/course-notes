@@ -7,6 +7,7 @@
   --tertiary: #84a59d;
   --visited: #afbfc9;
   --primary: #f28482;
+  --soft: #ffb6b6;
   --gray: #4e4e4e;
   --lightgray: #f0f0f0;
   --outlinegray: #dadada;
@@ -20,18 +21,36 @@
   --visited: #4a575e !important;
   --tertiary: #84a59d !important;
   --primary: #f58382 !important;
+  --soft: #ffb6b6 !important;
   --gray: #d4d4d4 !important;
   --lightgray: #292633 !important;
   --outlinegray: #343434 !important;
 }
 
+body {
+  font-size: 1.2em;
+}
 
+hr {
+  margin: 2rem auto;
+  background-color: var(--outlinegray) !important;
+}
 
-b, strong {
+strong, em {
   color: var(--primary)
+}
+
+strong {
+  font-variant: small-caps;
+  color: var(--primary);
 }
 
 img {
   display: flex;
   margin: auto;
+}
+
+details {
+  color: var(--dark);
+  font-family: var(--font-body);
 }
