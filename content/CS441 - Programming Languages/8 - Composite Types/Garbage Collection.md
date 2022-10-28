@@ -4,8 +4,6 @@ date: 2022-10-26
 parent: [[CS441 - Programming Languages/8 - Composite Types]]
 ---
 
-Part of [[CS441 - Programming Languages/8 - Composite Types]].
-
 # Reference Counting
 
 **Idea**: keep a count of references pointing to objects in memory, deallocate the memory once that count reaches 0.[^1].
