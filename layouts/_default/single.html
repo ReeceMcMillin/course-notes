@@ -8,7 +8,7 @@
     <!-- Begin actual content -->
     {{partial "header.html" .}}
     <article>
-      {{if .Title}}<h1>{{if .Parent}}<a href="{{ .Parent.Permalink }}" class="parent-link">{{ .Parent.Title }}</a> > {{end}}{{ .Title }}</h1>{{end}}
+      {{if .Title}}<h1>{{if .Parent}}<a href="{{ .Parent.Permalink }}" class="parent-link">{{ .Parent.Title }}</a> / {{end}}{{ .Title }}</h1>{{end}}
       <p class="meta">
         {{ i18n "last_updated" }} {{ partial "date-fmt.html" .}} 
           {{ partial "github.html" . }}

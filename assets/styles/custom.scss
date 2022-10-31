@@ -47,8 +47,9 @@ hr.pagebreak {
   background-color: var(--dark);
 }
 
-strong, em {
-  color: var(--primary)
+strong,
+em {
+  color: var(--primary);
 }
 
 strong {
@@ -76,4 +77,39 @@ li.wikipedia {
 
 li.wikipedia > a::before {
   content: "\1F517";
+}
+
+article {
+  > h1::before {
+    content: "# ";
+  }
+
+  > h2::before {
+    content: "## ";
+  }
+
+  > h3::before {
+    content: "### ";
+  }
+
+  > h4::before {
+    content: "#### ";
+  }
+
+  > h5::before {
+    content: "##### ";
+  }
+
+  > h6::before {
+    content: "###### ";
+  }
+
+  > h1 > a.parent-link {
+    font-weight: 700;
+    font-size: 1.1em;
+
+    &::before {
+      content: "";
+    }
+  }
 }

@@ -1,6 +1,7 @@
 ---
 title: "Midterm 2 Review"
 date: 2022-10-28
+parent: [[CS441 - Programming Languages/Overview]]
 ---
 
 # Big Ideas
