@@ -8,19 +8,11 @@ tags:
 - sorting
 ---
 
-Bubble sort (also known as *sinking sort*) works by repeatedly swapping adjacent elements until the full list is sorted.
-
-# Pseudocode
-```python
-def bubble_sort(items: List[Comparable]):
-	
-```
+**Bubble Sort** (also known as *sinking sort*) works by repeatedly swapping adjacent elements until the full list is sorted.
 
 # Analysis
 
 **Recurrence Relation**: $T(n) = T(n - 1) + (n - 1)$
-
-
 
 | | Worst Case | Average Case | Best Case | 
 |-|-|-|-| 

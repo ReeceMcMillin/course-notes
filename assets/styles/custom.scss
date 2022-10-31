@@ -33,6 +33,9 @@
 
 body {
   font-size: 1.2em;
+  > div.singlePage {
+    padding: 4em 15vw;
+  }
 }
 
 hr {
