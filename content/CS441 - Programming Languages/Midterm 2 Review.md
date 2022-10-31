@@ -23,6 +23,18 @@ parent: [[CS441 - Programming Languages/Overview]]
 	* Mark and Sweep
 	* Stop and Copy
 	* Generational Collection
-3. Describe *conservative* collection
+2. Describe *conservative* collection
 	* If it looks like a pointer, leave it alone
-4. What's are two problems associated with reference-counting garbage collectors?
+3. What's are two problems associated with reference-counting garbage collectors?
+
+## Chapter 9
+
+1. Describe the actions taking during the calling sequence.
+	* Prologue
+	* Epilogue
+2. Draw and label the stack frame diagram.
+3. Describe the four steps of a typical calling sequence.
+4. What is the difference between *formal* parameters and *actual* parameters?
+5. How does *inline expansion* differ from *macro expansion*?
+6. Describe the difference between **pass-by-value** and **pass-by-reference**.
+7. What are the benefits of pass-by-reference? What are the dangers?

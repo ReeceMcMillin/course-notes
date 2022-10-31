@@ -12,6 +12,8 @@ parent: [[CS441 - Programming Languages/Overview]]
 * [Roster - Who's Doing What](https://umsystem.instructure.com/courses/128558/pages/wiki-assignment-whos-doing-what)
 * [Timeline](https://umsystem.instructure.com/courses/128558/pages/some-programming-languages-a-timeline)
 	* Need to fill in *at least* two entries
+* [Example of a high-quality page with notes from Hare](https://umsystem.instructure.com/courses/128558/pages/some-programming-languages-c++)
+* [Actual page to edit](https://umsystem.instructure.com/courses/128558/pages/some-programming-languages-sql)
 
 # Components
 
