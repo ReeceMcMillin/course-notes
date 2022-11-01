@@ -1,5 +1,5 @@
 ---
-title: "ENV110 - Lecture 20"
+title: "Lecture 20"
 date: 2022-10-27
 tags:
 - lecture
@@ -18,7 +18,7 @@ tags:
 > 
 > If you go from gaseous water to liquid water, is energy absorbed or released?
 > 
-> * **How to Answer**: 
+> * **How to Answer**: gas particles have higher energy than particles in liquids, think of the gas particles bouncing around a bunch.
 
 # Atmospheric Moisture
 
