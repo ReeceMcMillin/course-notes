@@ -4,7 +4,7 @@ date: 2022-10-25
 ---
 > [!attention]
 > 
- This is covered in significantly more detail in [[CS441 - Programming Languages/8 - Composite Types/Composite Types - Overview]]
+ This is covered in significantly more detail in [[CS441 - Programming Languages/8 - Composite Types/]]
 ## Records
 Records were introduced by [[CS441 - Programming Languages/Languages/Cobol]], similar to tuple
 * Cartesian product of its components

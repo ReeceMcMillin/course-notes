@@ -1,6 +1,7 @@
 ---
-title: "Summary"
+title: "5 - Atmospheric and Oceanic Circulation (Overview)"
 date: 2022-10-25
+parent: [[ENV110 - Environmental Science/Overview]]
 ---
 
 * **Trade Winds** (easterly)

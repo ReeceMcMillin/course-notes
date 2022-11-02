@@ -1,7 +1,7 @@
 # if true, a Global Graph will be shown on home page with full width, no backlink.
 # A different set of Local Graphs will be shown on sub pages.
 # if false, Local Graph will be default on every page as usual
-enableGlobalGraph: false
+enableGlobalGraph: true
 
 ### Local Graph ###
 
@@ -11,10 +11,10 @@ localGraph:
     enableZoom: true
     depth: 3 # set to -1 to show full graph
     scale: 1.4
-    repelForce: 1.2
-    centerForce: 1
+    repelForce: 0.5
+    centerForce: 1.5
     linkDistance: 1
-    fontSize: 0.7
+    fontSize: 0.8
     opacityScale: 3
 
 ### Global Graph ###

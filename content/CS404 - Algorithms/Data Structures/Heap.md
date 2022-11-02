@@ -2,7 +2,6 @@
 title: "Heap"
 date: 2022-11-01
 wikipedia: "https://en.wikipedia.org/wiki/Heap_(data_structure)"
-parent: [[CS404 - Algorithms/Data Structures/_index]]
 tags:
 - "data structure"
 ---

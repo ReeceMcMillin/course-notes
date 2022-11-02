@@ -2,9 +2,7 @@
 title: "List"
 date: 2022-10-28
 wikipedia: "https://en.wikipedia.org/wiki/Linked_list"
-parent: [[CS441 - Programming Languages/8 - Composite Types/Composite Types - Overview]]
-tags:
-- ""
+parent: [[CS441 - Programming Languages/8 - Composite Types/Overview]]
 ---
 
 In garbage collected languages, list elements typically have to be the same type.

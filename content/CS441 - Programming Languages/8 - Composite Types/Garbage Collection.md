@@ -1,7 +1,7 @@
 ---
 title: "Garbage Collection"
 date: 2022-10-26
-parent: [[CS441 - Programming Languages/8 - Composite Types]]
+parent: [[CS441 - Programming Languages/8 - Composite Types/Overview]]
 ---
 
 # Reference Counting

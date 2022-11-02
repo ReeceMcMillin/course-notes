@@ -1,6 +1,7 @@
 ---
 title: "Agents"
 date: 2022-10-25
+parent: [[CS461 - Artificial Intelligence/6 - Knowledge Representation/Overview]]
 ---
 
 Independent programs/systems that each specialize in small tasks

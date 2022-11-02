@@ -1,12 +1,13 @@
 ---
-title: "Logic"
+title: "5 - Logic (Overview)"
 date: 2022-10-25
+parent: [[CS461 - Artificial Intelligence/Overview]]
 ---
 
 # Types
 * [[CS461 - Artificial Intelligence/5 - Logic/Predicate Logic]]
 # Other Logics
-Everything we've seen so far is **[[Monotonic.md]]**: once it's in the knowledge base, it can't be removed
+Everything we've seen so far is **monotonic**: once it's in the knowledge base, it can't be removed
 ## Second-Order Logic
 *"A predicate must exist that satisfies these properties"*
 * Gives you enough power to approach Godel's Incompleteness Theorem

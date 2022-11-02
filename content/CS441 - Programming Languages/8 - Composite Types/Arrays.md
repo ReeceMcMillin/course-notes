@@ -1,6 +1,7 @@
 ---
 title: "Arrays"
 date: 2022-10-25
+parent: [[CS441 - Programming Languages/8 - Composite Types/Overview]]
 ---
 
 ## Overview

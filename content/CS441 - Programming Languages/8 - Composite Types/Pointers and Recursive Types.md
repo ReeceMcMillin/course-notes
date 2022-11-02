@@ -1,6 +1,7 @@
 ---
 title: "Pointers and Recursive Types"
 date: 2022-10-25
+parent: [[CS441 - Programming Languages/8 - Composite Types/Overview]]
 ---
 
 Records of some type $T$ can easily contain a reference to another record of $T$.

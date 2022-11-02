@@ -1,6 +1,7 @@
 ---
 title: "Energy Pathways"
 date: 2022-10-30
+parent: [[ENV110 - Environmental Science/4 - Energy Balance and Temperature/Overview]]
 ---
 
 The four energy pathways are:
