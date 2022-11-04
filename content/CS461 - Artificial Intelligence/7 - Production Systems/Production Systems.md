@@ -1,7 +1,7 @@
 ---
 title: "Production Systems"
-date: 2022-10-25
-parent: [[CS461 - Artificial Intelligence/6 - Knowledge Representation/Overview]]
+date: 2022-11-04
+wikipedia: "https://en.wikipedia.org/wiki/Production_system_(computer_science)"
 ---
 
 Idea: *if-then* rules

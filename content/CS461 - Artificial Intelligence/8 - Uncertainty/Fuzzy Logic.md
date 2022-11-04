@@ -5,12 +5,12 @@ parent: [[CS461 - Artificial Intelligence/Uncertainty/Uncertainty]]
 ---
 
 # Fuzzy Sets
-Crisp set: $\{0, 1\}$
-Fuzzy set: $\{0, \dots, 1\}$
+Crisp set: $\\{0, 1\\}$
+Fuzzy set: $\\{0, \dots, 1\\}$
 
 * With a crisp set, we choose a strict cutoff value and make no accomodations.
 * Fuzzy sets can have *degrees* of membership.
-* $\{< 5'6, \dots, 6'3 >\}$ with a ramp function in between
+* $\\{< 5'6, \dots, 6'3 >\\}$ with a ramp function in between
 
 ## Fuzzy Set Membership
 * $X \cup Y = max(X, Y)$

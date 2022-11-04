@@ -8,7 +8,7 @@ parent: [[CS461 - Artificial Intelligence/6 - Knowledge Representation/Overview]
 Extension of [[CS461 - Artificial Intelligence/6 - Knowledge Representation/Frames]]
 * adds information about sequences of events and planning
 
-**Key concept:** conceptual dependency #key-concept
+**Key concept:** conceptual dependency
 * Classify relations between objects and properties
 
 Scripts can be arranged hierarchically and used in [[CS461 - Artificial Intelligence/6 - Knowledge Representation/Production Systems]]

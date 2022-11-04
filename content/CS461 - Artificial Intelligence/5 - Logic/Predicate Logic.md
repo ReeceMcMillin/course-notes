@@ -1,6 +1,7 @@
 ---
 title: "Predicate Logic"
 date: 2022-10-25
+wikipedia: https://en.wikipedia.org/wiki/First-order_logic
 ---
 
 # Overview
@@ -18,9 +19,11 @@ Predicate logic allows us to make statements about *categories*
 		* $\neg{(\forall{x}: \neg{\text{Alien}(x)} \vee \text{DrivesSaucer}(x)})$
 		* $\exists{x}: \text{Alien}(x) \wedge \neg{\text{DrivesSaucer}(x)}$
 # Resolution (Unification)
-```ad-note
-Propositional logic refers to this as resolution, called *unification* in predicate logic
-```
+
+> [!NOTE] NOTE
+> 
+> [[CS461 - Artificial Intelligence/5 - Logic/Propositional Logic]] refers to this as resolution, called *unification* in predicate logic
+
 * **Rule 1:** predicates must match
 	* $setting(sun) \wedge \neg{setting(moon)}$ ~ different variables, no relationship
 
@@ -42,4 +45,3 @@ Propositional logic refers to this as resolution, called *unification* in predic
 			* **4:** $\neg{G(Aladdin)}$
 		* Resolution through **2** and **3** produces $G(Aladdin)$
 		* Resolution through **4** and **5** produces $\emptyset$ - contradiction
-* 
