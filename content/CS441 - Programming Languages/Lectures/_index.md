@@ -8,4 +8,4 @@ Part of [[CS441 - Programming Languages/Overview]]
 * [[CS441 - Programming Languages/Lectures/2022-10-28]]
 * [[CS441 - Programming Languages/Lectures/2022-10-31]]
 * [[CS441 - Programming Languages/Lectures/2022-11-02]]
-
+* [[CS441 - Programming Languages/Lectures/2022-11-04]]
