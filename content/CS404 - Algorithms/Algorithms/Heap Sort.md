@@ -20,3 +20,5 @@ What is a **heap**?
 
 * **Worst Case**: $O(n\lg{n})$
 * **Best Case**: $O(n \lg{n})$
+
+![[Excalidraw/Drawing 2022-11-03 13.02.01.excalidraw.svg]]
