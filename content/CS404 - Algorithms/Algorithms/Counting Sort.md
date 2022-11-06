@@ -9,7 +9,7 @@ tags:
 
 # Overview
 
-**Counting Sort** is an sorting algorithm that uses keys of small positive integers.
+**Counting Sort** is a sorting algorithm that uses keys of small positive integers.
 
 # Analysis
 
@@ -25,3 +25,5 @@ Good to know:
 * Worst case is when data is skewed and range is large.
 * Best case is when all elements are the same.
 * Average case is when $n$ and $k$ are equally dominant.
+
+Counting sort is *typically* [[CS404 - Algorithms/Ideas/Stable (Sorting)|stable]]. The in-place variant of counting sort, however, is not.

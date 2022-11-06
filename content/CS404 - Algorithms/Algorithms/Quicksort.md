@@ -2,7 +2,6 @@
 title: "Quicksort"
 date: 2022-10-25
 wikipedia: https://en.wikipedia.org/wiki/Quicksort
-parent: [[CS404 - Algorithms/Algorithms/]]
 tags:
 - algorithm
 - sorting
@@ -23,9 +22,17 @@ The left and right subarrays are also divided using the same approach. This proc
 Finally, subarrays are recombined to form a sorted array.
 
 # Complexity
-$$T(n) = 2T\left(\frac{n}{2}\right) + \Theta(n)$$
 
-By the [[CS404 - Algorithms/Divide and Conquer/Master Theorem]], this gives $T(n) = \Theta(n \lg{n})$
+To analyze quicksort, we need to consider the best- and worst-case *partition* behavior.
+
+Given perfectly balanced partitions at each stage, we get the following recurrence relation:
+$$T(n) = 2T\left(\frac{n}{2}\right) + \Theta(n)$$
+By the [[CS404 - Algorithms/Divide and Conquer/Master Theorem]], this gives $T(n) = \Theta(n \lg{n})$.
+
+In the worst case, partitioning could produce one subproblem of size $(n - 1)$ and another of size $0$. This would produce the following recurrence relation:
+$$T(n) = T(n-1) + \Theta(n)$$
+Using the [[CS404 - Algorithms/Divide and Conquer/Substitution Method|subsitution method]], we get $T(n) = \Theta(n^2)$.
+
 
 # Explanation
 
@@ -41,4 +48,6 @@ You can think of the *pivot* as the only sorted element.
 
 # Notes
 1. Quicksort is **in-place**
-2. Quicksort is **not** [[CS404 - Algorithms/Ideas/Stable (Sorting)]]
+2. Quicksort is **not** [[CS404 - Algorithms/Ideas/Stable (Sorting)|stable]].[^1]
+
+[^1]: This depends on the partitioning scheme.

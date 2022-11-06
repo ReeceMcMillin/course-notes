@@ -2,7 +2,6 @@
 title: "Bubble Sort"
 date: 2022-10-27
 wikipedia: https://en.wikipedia.org/wiki/Bubble_sort
-parent: [[CS404 - Algorithms/Overview]]
 tags:
 - algorithm
 - sorting
@@ -20,3 +19,4 @@ tags:
 | Swaps | $O(n^2)$ | $O(n^2)$ | $O(1)$ |
 | Space | $O(n)$ | | |
 
+Bubble sort is typically [[CS404 - Algorithms/Ideas/Stable (Sorting)|stable]].

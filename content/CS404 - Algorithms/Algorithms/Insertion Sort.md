@@ -45,3 +45,5 @@ T(n) &= T(n - 1) + 1\\
 T(n) &\in O(n)
 \end{align*}
 $$
+
+Insertion sort is a [[CS404 - Algorithms/Ideas/Stable (Sorting)|stable]] algorithm, meaning it doesn't change the relative order of equal elements.

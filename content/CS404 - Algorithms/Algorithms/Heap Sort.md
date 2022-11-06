@@ -2,7 +2,6 @@
 title: "Heap Sort"
 date: 2022-11-01
 wikipedia: "https://en.wikipedia.org/wiki/Heapsort"
-parent: ""
 tags:
 - Algorithm
 - Sorting
