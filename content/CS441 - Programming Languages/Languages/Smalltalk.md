@@ -2,8 +2,6 @@
 title: "Smalltalk"
 date: 2022-11-04
 wikipedia: "https://en.wikipedia.org/wiki/Smalltalk"
-tags:
-- language
 ---
 # Overview
 First fully object-oriented language, used a "message-based" programming model.

@@ -32,7 +32,7 @@ parent: [[CS441 - Programming Languages/Overview]]
 	* Mark and Sweep
 	* Stop and Copy
 	* Generational Collection
-2. Describe *conservative* collection
+2. Describe *conservative* garbage collection
 	* If it looks like a pointer, leave it alone
 3. What's are two problems associated with reference-counting garbage collectors?
 

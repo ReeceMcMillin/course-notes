@@ -5,6 +5,7 @@ date: 2022-10-25
 
 # Types
 * [[CS461 - Artificial Intelligence/5 - Logic/Predicate Logic]]
+* [[CS461 - Artificial Intelligence/5 - Logic/Propositional Logic]]
 # Other Logics
 Everything we've seen so far is **monotonic**: once it's in the knowledge base, it can't be removed
 ## Second-Order Logic
