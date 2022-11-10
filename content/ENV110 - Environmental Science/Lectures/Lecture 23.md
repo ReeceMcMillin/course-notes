@@ -1,6 +1,9 @@
 ---
 title: "Lecture 23"
 date: 2022-11-08
+tags:
+- lecture
+- env110
 ---
 
 - Rain shadow: a dry area on the leeward side of a mountainous area (away from the wind)

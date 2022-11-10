@@ -1,6 +1,9 @@
 ---
 title: "Lecture 19"
 date: 2022-10-25
+tags:
+- lecture
+- env110
 ---
 
 1. What causes the wind to flow from east to west instead of pole to equator
