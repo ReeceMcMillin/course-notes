@@ -36,4 +36,5 @@ tags:
 
 # Lecture
 
-* [[ENV110 - Environmental Science/7 - Weather/Tornadoes]]
+* [[ENV110 - Environmental Science/7 - Weather/Tornados]]
+* [[ENV110 - Environmental Science/7 - Weather/Tropical Cyclones]]
