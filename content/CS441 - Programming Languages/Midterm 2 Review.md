@@ -12,19 +12,19 @@ parent: [[CS441 - Programming Languages/Overview]]
 > It's read-only, so go ahead and make a copy to fill in yourself. I'd love to share answers, but it *really* sticks better when you write them yourself.
 
 
-# Chapter 5
-
-> todo
-
 # Chapter 6
 
-> todo
+* **Value Model**: a variable is just a *named container* for a value
+	- **l-value**: a left-hand side expression representing a *location*
+	- **r-value**: a left-hand side expression representing a *value*
+- **Reference Model**: a variable is a *named reference* to a value
 
 # Chapter 7
 
 > todo
 
 # Chapter 8
+* Describe the purpose of a [[CS441 - Programming Languages/8 - Composite Types/Dope Vector|dope vector]] and what information it typically contains.
 * Know how to calculate array bounds
 1. Describe the following [[CS441 - Programming Languages/8 - Composite Types/Garbage Collection|garbage collection]] strategies:
 	* Tombstones
@@ -34,7 +34,8 @@ parent: [[CS441 - Programming Languages/Overview]]
 	* Generational Collection
 2. Describe *conservative* garbage collection
 	* If it looks like a pointer, leave it alone
-3. What's are two problems associated with reference-counting garbage collectors?
+3. What are two problems associated with reference-counting garbage collectors?
+4. Describe the difference between the *reference* and *value* models of variables when it comes to pointers and recursive types.
 
 # Chapter 9
 1. Describe the actions taking during the calling sequence.
@@ -46,3 +47,9 @@ parent: [[CS441 - Programming Languages/Overview]]
 5. How does *inline expansion* differ from *macro expansion*?
 6. Describe the difference between **pass-by-value** and **pass-by-reference**.
 7. What are the benefits of pass-by-reference? What are the dangers?
+
+
+
+# Brain Dump
+
+In a stack frame, addressing is done relative to the **frame pointer** because the compiler can't know the exact memory address of the frame until runtime.
