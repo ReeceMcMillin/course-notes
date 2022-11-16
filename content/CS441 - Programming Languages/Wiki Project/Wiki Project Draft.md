@@ -13,7 +13,29 @@ SQL was introduced in a 1974 paper by recent PhD graduates Donald Chamberlin and
 
 # Features
 
+* Native data types
+* Control structures
+	* Iteration
+	* Selection
+	* Concurrency?
+* Declarative
+* Statically, strongly typed
+* Other unique features
+	* Anything arcane?
 
+* Basic evaluation (support each point)
+	* How readable? How writeable?
+	* Reliability
+		* Note transaction processing facilities and ACID guarantees
+	* Orthogonality (not very orthogonal - SQL is hard to compose)
+		* Example is trying to select a table name with a query for use in another query - not possible
+		  ```sql
+		  
+		  ```
+		* 
+	* Expressiveness (very expressive - say what you want, not how to do it)
+	* How well does it support abstraction?
+	* Execution speed
 
 # Example Code
 
