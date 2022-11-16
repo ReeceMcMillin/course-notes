@@ -34,8 +34,8 @@ CREATE TABLE department (
 
 ALTER TABLE employee
 ADD CONSTRAINT fk_emp_dept
-FOREIGN KEY (dept_id)         ; an employee's `dept_id` field...
-REFERENCES department (id);   ; references a department's `id` field.
+FOREIGN KEY (dept_id)         ; an employee `dept_id` field...
+REFERENCES department (id);   ; references a department `id` field.
 ```
 
 SQL also operates as a data *manipulation* language, allowing you to create, update, or read individual rows in the tables you've created.
