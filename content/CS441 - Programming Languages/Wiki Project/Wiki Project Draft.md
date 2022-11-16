@@ -21,8 +21,8 @@ SQL provides mechanisms for defining and altering table schemas, operating as a 
 
 ```sql
 CREATE TABLE employee (
-    id 	  		SERIAL 	PRIMARY KEY,
-    dept_id 	INT 	NOT NULL,
+    id 	  	    SERIAL 	PRIMARY KEY,
+	dept_id     INT 	NOT NULL,
     name 	  	TEXT 	NOT NULL,
     salary  	INT 	NOT NULL
 );
@@ -74,7 +74,7 @@ ORDER BY salary DESC;
 ...produces a set of results that looks like this:
 
 | employee_name | salary | department_name |
-| ------------- | ------ | --------------- |
+| :-----------: | :----: | :-------------: |
 | Eve           | 70000  | Operations      |
 | Frank         | 65000  | Sales           |
 | Carol         | 60000  | Retail          |
@@ -95,7 +95,7 @@ ORDER BY avg_salary DESC;
 ```
 
 | name       | avg_salary |
-| ---------- | ---------- |
+| :--------: | :--------: |
 | Operations | 62500      |
 | Sales      | 60000      |
 | Retail     | 55667      |
@@ -106,8 +106,8 @@ ORDER BY avg_salary DESC;
 
 # Further Reading
 
-[1]:	Donald D. Chamberlin. 2012. Early History of SQL. IEEE Annals Hist. Comput. 34, 4 (October 2012), 78–82. DOI:https://doi.org/10.1109/MAHC.2012.61
-[2]:	Donald D. Chamberlin, Morton M. Astrahan, Michael W. Blasgen, James N. Gray, W. Frank King, Bruce G. Lindsay, Raymond Lorie, James W. Mehl, Thomas G. Price, Franco Putzolu, Patricia Griffiths Selinger, Mario Schkolnick, Donald R. Slutz, Irving L. Traiger, Bradford W. Wade, and Robert A. Yost. 1981. A history and evaluation of System R. Commun. ACM 24, 10 (October 1981), 632–646. DOI:https://doi.org/10.1145/358769.358784
-[3]:	Donald D. Chamberlin and Raymond F. Boyce. 1974. SEQUEL: A structured English query language. In Proceedings of the 1974 ACM SIGFIDET (now SIGMOD) workshop on Data description, access and control (SIGFIDET ’74), Association for Computing Machinery, New York, NY, USA, 249–264. DOI:https://doi.org/10.1145/800296.811515
-[4]:	E. F. Codd. 1970. A relational model of data for large shared data banks. Commun. ACM 13, 6 (June 1970), 377–387. DOI:https://doi.org/10.1145/362384.362685
-[5]:	2022. SQL. Wikipedia. Retrieved October 31, 2022 from https://en.wikipedia.org/w/index.php?title=SQL&oldid=1119270475
+1. Donald D. Chamberlin. 2012. Early History of SQL. IEEE Annals Hist. Comput. 34, 4 (October 2012), 78–82. DOI:https://doi.org/10.1109/MAHC.2012.61
+2. Donald D. Chamberlin, Morton M. Astrahan, Michael W. Blasgen, James N. Gray, W. Frank King, Bruce G. Lindsay, Raymond Lorie, James W. Mehl, Thomas G. Price, Franco Putzolu, Patricia Griffiths Selinger, Mario Schkolnick, Donald R. Slutz, Irving L. Traiger, Bradford W. Wade, and Robert A. Yost. 1981. A history and evaluation of System R. Commun. ACM 24, 10 (October 1981), 632–646. DOI:https://doi.org/10.1145/358769.358784
+3. Donald D. Chamberlin and Raymond F. Boyce. 1974. SEQUEL: A structured English query language. In Proceedings of the 1974 ACM SIGFIDET (now SIGMOD) workshop on Data description, access and control (SIGFIDET ’74), Association for Computing Machinery, New York, NY, USA, 249–264. DOI:https://doi.org/10.1145/800296.811515
+4. E. F. Codd. 1970. A relational model of data for large shared data banks. Commun. ACM 13, 6 (June 1970), 377–387. DOI:https://doi.org/10.1145/362384.362685
+5. SQL. Wikipedia. Retrieved October 31, 2022 from https://en.wikipedia.org/w/index.php?title=SQL&oldid=1119270475
