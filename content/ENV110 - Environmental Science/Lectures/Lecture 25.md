@@ -1,6 +1,9 @@
 ---
 title: "Lecture 25"
 date: 2022-11-15
+tags:
+- lecture
+- env110
 ---
 
 1. Which part of a hurricane consists of dry, descending air?

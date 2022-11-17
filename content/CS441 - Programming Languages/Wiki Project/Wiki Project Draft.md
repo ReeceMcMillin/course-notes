@@ -14,8 +14,18 @@ SQL was introduced in a 1974 paper by recent PhD graduates Donald Chamberlin and
 # Features
 
 * Native data types
+	* Character: CHAR, VARCHAR, CLOB(?)
+	* Numeric
+		* Exact: NUMERIC, DECIMAL, INTEGER (and variants)
+		* Approximate: FLOAT, REAL, DOUBLE PRECISION
+		* Decimal: DECFLOAT
+		* Datetime: DATE, TIME, TIMESTAMP
+		* Interval: INTERVAL
+		* Boolean
+		* Structured: XML, JSON
 * Control structures
 	* Iteration
+		* Procedural extensions
 	* Selection
 	* Concurrency?
 * Declarative
@@ -29,10 +39,6 @@ SQL was introduced in a 1974 paper by recent PhD graduates Donald Chamberlin and
 		* Note transaction processing facilities and ACID guarantees
 	* Orthogonality (not very orthogonal - SQL is hard to compose)
 		* Example is trying to select a table name with a query for use in another query - not possible
-		  ```sql
-		  
-		  ```
-		* 
 	* Expressiveness (very expressive - say what you want, not how to do it)
 	* How well does it support abstraction?
 	* Execution speed
