@@ -7,4 +7,6 @@
 
 1. What does *vector-parallel* mean?
 2. What is the difference between *implicit* and *explicit* parallelism?
-3. 
+3. Describe the process of using timer signals for preemptive multithreading.
+4. Why do thread libraries typically disable signal delivery during scheduler calls?
+5. How does a **reader-writer lock** work?
