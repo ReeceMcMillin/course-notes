@@ -13,6 +13,10 @@ SQL was introduced in a 1974 paper by recent PhD graduates Donald Chamberlin and
 
 # Features
 
+
+
+
+
 * Native data types
 	* Character: CHAR, VARCHAR, CLOB(?)
 	* Numeric
@@ -23,6 +27,8 @@ SQL was introduced in a 1974 paper by recent PhD graduates Donald Chamberlin and
 		* Interval: INTERVAL
 		* Boolean
 		* Structured: XML, JSON
+
+
 * Control structures
 	* Iteration
 		* Procedural extensions
@@ -62,8 +68,8 @@ CREATE TABLE department (
 
 ALTER TABLE employee
 ADD CONSTRAINT fk_emp_dept
-FOREIGN KEY (dept_id)         ; an employee `dept_id` field...
-REFERENCES department (id);   ; references a department `id` field.
+FOREIGN KEY (dept_id)         -- an employee's `dept_id` field...
+REFERENCES department (id);   -- references a department's `id` field.
 ```
 
 SQL also operates as a data *manipulation* language, allowing you to create, update, or read individual rows in the tables you've created.

@@ -12,8 +12,10 @@ enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
 GitHubLink: https://github.com/reecemcmillin/quartz/tree/hugo/content
-enableSemanticSearch: false
-# operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+search:
+  enableSemanticSearch: false
+  # operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+  # operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description: This is a collection of my personal/course notes taken or converted to Obsidian and built using Quartz/Hugo.
 page_title: "λ"
 links:
