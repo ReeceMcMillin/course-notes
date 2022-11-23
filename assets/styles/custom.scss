@@ -28,6 +28,7 @@
   --outlinegray: #343434 !important;
   --highlighted: #574010;
 
+  // Invert SVGs if dark mode is on.
   >* img[src$=".svg"] {
     filter: invert(100%);
   }
