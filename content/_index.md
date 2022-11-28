@@ -5,7 +5,7 @@ enableToc: true
 
 # Overview
 
-This is a collection of my ==course notes== written in Obsidian.
+This is a collection of my course notes written in Obsidian.
 
 # About Me
 
