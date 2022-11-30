@@ -85,3 +85,8 @@ li.wikipedia {
 li.wikipedia > a::before {
   content: "\1F517";
 }
+
+mark {
+  text-shadow: var(--tertiary) 2px 2px 4px, var(--tertiary) -2px -2px 4px;
+  background: none;
+}
