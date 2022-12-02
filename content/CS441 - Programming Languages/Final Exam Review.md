@@ -21,3 +21,5 @@ tags:
 6. Explain how the **test-and-set** instruction works.
 7. ==Explain how the **compare-and-swap** instruction works.==
 8. Explain how a nonblocking concurrent queue works.
+9. ==Why are functional languages better-suited for high parallelization?==
+10. 
