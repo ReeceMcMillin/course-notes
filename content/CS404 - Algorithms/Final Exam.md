@@ -8,7 +8,7 @@ date: 2022-12-14
 * Analyzing algorithms refers to the time and space required to execute algorithms.
 * An algorithm is a step-by-step method of solving some problems.
 * Pseudocode is so named because it resembles the actual code of computer languages such as C++ and Java.
-* Any polynomial in $n$ of degree $k$ is $p(n) \in \Theta{(n^2)}$.
+* Any polynomial in $n$ of degree $k$ is $p(n) \in \Theta{(n^k)}$.
 
 # Growth Ordering
 
