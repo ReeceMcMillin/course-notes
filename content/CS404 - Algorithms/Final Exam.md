@@ -1,6 +1,6 @@
 ---
 title: "Final Exam"
-date: 2022-11-17
+date: 2022-12-14
 ---
 
 # Misc From Quizzes
@@ -29,6 +29,9 @@ for (int j=1; j*j<=n; j++) {
 }
 ```
 $$T(n) \in \Theta(\sqrt{n})$$
+
+--- 
+
 ```pascal
 for i = 1 to n:
 	for j = 1 to n:
@@ -36,12 +39,18 @@ for i = 1 to n:
 			x = x + 1
 ```
 $$T(n) \in \Theta(n^3)$$
+
+---
+
 ```pascal
 for i = 1 to n:
 	for j = 1 to i:
 		x = x + 1
 ```
 $$T(n) \in \Theta{(n^2)}$$
+
+---
+
 ```c
 for (int i=0; i<n; i++) {
 	for (int j=i+1; j<n; j++) {
