@@ -8,3 +8,4 @@ tags:
 - MST
 ---
 
+Prim's algorithm 

@@ -1,0 +1,72 @@
+---
+title: "Final Exam Review"
+date: 2022-12-13
+---
+
+- Chapter 10
+	- General structure of categories:
+		- unsupervised learning
+		- supervised learning
+		- reinforcement learning
+	- training set vs. test set vs. validation set
+	- Decision Trees
+		- when are they suitable?
+			- variables *and target function* take small number of discrete values
+			- also when there may be errors/missing values in input data
+	- Information Gain
+		- definition of information: $H(p) = -p\lg{p}$
+		- 
+- Chapter 11
+	- describe the following:
+		- perceptron learning rule
+		- gradient descent
+		- backpropagation
+		- batch training
+		- cross validation
+			- k-fold
+			- leave-out-one
+	- strategies to reduce overtraining
+		- more data
+		- check against test data (not presented in training)
+		- reduce learning rate $\alpha$ over time
+		- add noise to data
+		- mini-batch training
+			- use different selections of training cases for mini-batches each time
+		- remove neurons with *all outgoing weights* close to 0
+		- dropout
+		- regularize
+			- consequences of $L_1$ vs $L_2$
+				- $L_1$: pushes small weights to 0, leads to sparse networks
+				- $L_2$: uniformly small weights
+	- ensemble methods
+		- digit recognition software used to read zip codes
+			- one network trained on 50,000 cases
+			- second trained on whatever the first one got wrong
+			- third trained on cases where the two disagreed
+			- 2/3 vote needed to be decisive
+		- general method for $N$ networks
+		- why?
+			- high accuracy even if component networks have low-ish accuracy (~50%)
+			- continue to improve after all component networks are classifying 100% accurately
+		- all we need is one single hidden layer to model any continuous function to arbitrary accuracy
+			- second hidden layer gets us discontinuous functions
+		- 
+- Videos:
+    - [[CS461 - Artificial Intelligence/Videos/How Convolutional Networks Work]]
+    - [[CS461 - Artificial Intelligence/Videos/How Recurrent & LSTM Networks Work]]
+    - 3Blue1Brown series, first 3 (see [Machine Learning & Neural Networks: Useful Videos](https://umsystem.instructure.com/courses/130082/pages/machine-learning-and-neural-networks-useful-videos "Machine Learning & Neural Networks: Useful videos") page).
+        1. [[CS461 - Artificial Intelligence/Videos/3Blue1Brown - But What IS a Neural Network?]]
+        2. [[CS461 - Artificial Intelligence/Videos/3Blue1Brown - Gradient Descent]]
+        3. [[CS461 - Artificial Intelligence/Videos/3Blue1Brown - But What is Backpropagation Actually Doing?]]
+- [[CS461 - Artificial Intelligence/Reading/Neural Networks and Backgammon]]
+	- focus on Temporal Difference Learning & how the networks were trained/refined
+- [[CS461 - Artificial Intelligence/Reading/Bias in Machine Learning Slides]]
+- All of the following, in the [Modules / Course Content](https://umsystem.instructure.com/courses/130082/modules/741227 "Course Content") section:
+    - [[CS461 - Artificial Intelligence/Reading/MIT - Image Generation is Racist]]
+    - [[CS461 - Artificial Intelligence/Reading/CACM - Facial Recognition Bias]]
+    - [[CS461 - Artificial Intelligence/Reading/Excavating AI - Politics of Images in Machine Learning]]
+    - [[CS461 - Artificial Intelligence/Reading/AI is neither Artificial nor Intelligent]]
+    - [[CS461 - Artificial Intelligence/Reading/Data is never raw, truthful, neutral|Data is never a raw, truthful input--and is never neutral.]]
+    - [[CS461 - Artificial Intelligence/Reading/Wired - How to Stop Robots from Becoming Racist]]
+    - [[CS461 - Artificial Intelligence/Reading/Abuses & Misuses of AI]]
+    - [[CS461 - Artificial Intelligence/Reading/Unsupervised Machine Learning]]
